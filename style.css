@@ -16,7 +16,7 @@
   justify-content: flex-end;
 }
 
-.operator {
+#operator {
   background-color: #E7E7E7;
   width: 78px;
   height: 80px;
@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-.number {
+#number {
   background-color: #FFFFFF;
   width: 78px;
   height: 80px;
@@ -39,7 +39,7 @@
   justify-content: center;
 }
 
-.pad {
+#pad {
   background-color: #FFFFFF;
   width: 78px;
   height: 80px;
