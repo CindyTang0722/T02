@@ -1,63 +1,36 @@
 #display {
   background-color: black;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px 10px 0 0;
   width: 320px;
   height: 80px;
 }
 
 #displayValue {
   text-align: right;
-  font-size: 60px;
-  margin-right: 10px;
+  padding-right: 10px;
   color: white;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
-#operator {
+.operator, .number {
   background-color: #E7E7E7;
   width: 78px;
   height: 80px;
   border: 1px solid #A9A9A9;
   font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#number {
-  background-color: #FFFFFF;
-  width: 78px;
-  height: 80px;
-  border: 1px solid #A9A9A9;
-  font-size: 30px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#pad {
+.number {
   background-color: #FFFFFF;
-  width: 78px;
-  height: 80px;
-  border: 1px solid #A9A9A9;
-  font-size: 30px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#equal {
+.equal {
   background-color: #FA8664;
-  width: 78px;
-  height: 320px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
   grid-row: span 4;
 }
