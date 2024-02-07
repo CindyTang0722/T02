@@ -47,5 +47,10 @@
 #pad {
   display: grid;
   grid-template-columns: repeat(3, 78px);
-  grid-template-rows: repeat(4, 80px);
+  gap: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
 }
