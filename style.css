@@ -53,4 +53,5 @@
     text-align: center;
     font-size: 30px;
     border-radius: 10px;
+    grid-row: span 4;
 }
